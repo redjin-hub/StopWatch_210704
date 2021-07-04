@@ -59,6 +59,7 @@
         android:clickable="true"
         app:backgroundTint="#970000"
         app:tint="#ffffff"
+
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/fab"
         app:layout_constraintHorizontal_bias="0.404"
@@ -92,9 +93,11 @@
         app:layout_constraintVertical_bias="0.0">
 
         <LinearLayout
+            android:id="@+id/lapLayout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical" />
+            android:orientation="vertical"
+            />
     </ScrollView>
 
 </android.support.constraint.ConstraintLayout>
